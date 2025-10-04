@@ -21,7 +21,6 @@ function love.load()
     screen_width, screen_height = love.graphics.getDimensions()
     local success = love.window.setMode(screen_width, screen_height, { resizable = true })
 
-    
 end
 
 function love.quit()
